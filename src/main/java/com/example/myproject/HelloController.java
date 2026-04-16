@@ -10,7 +10,7 @@ public class HelloController
     @GetMapping("/hello")
     public String hello()
     {
-        System.out.println("Hello GET API called...");
+        System.out.println("Hello GET API called....");
         return "Day 1 Project Setup is readyyy...!!!";
     }
 
