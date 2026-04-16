@@ -21,4 +21,10 @@ public class HelloController
         return "Are you ready......!!!";
     }
 
+    @GetMapping("/AboutDeveloper")
+    public String about()
+    {
+        return "Surya Mahesh Kolisetty @2026.";
+    }
+
 }
